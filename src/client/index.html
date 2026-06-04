@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" class="-polaris">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyber Risk Intelligence Dashboard</title>
+  <sdk:now-ux-globals></sdk:now-ux-globals>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+  //<![CDATA[
+  if (!Array.from) {
+    Array.from = function(arrayLike, mapFn, thisArg) {
+      var arr = [];
+      var items = Object(arrayLike);
+      var len = items.length >>> 0;
+      for (var i = 0; i < len; i++) {
+        if (mapFn) {
+          arr.push(thisArg ? mapFn.call(thisArg, items[i], i) : mapFn(items[i], i));
+        } else {
+          arr.push(items[i]);
+        }
+      }
+      return arr;
+    };
+  }
+  //]]>
+  </script>
+  <script src="main.tsx?uxpcb=$[UxFrameworkScriptables.getFlushTimestamp()]" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "scope": "x_1658278_riskview",
+  "scopeId": "aca11afc835103105fc7c730ceaad3be",
+  "name": "Riskview",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
