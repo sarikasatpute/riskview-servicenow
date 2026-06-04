@@ -67,6 +67,7 @@ export function Dashboard({ onNavigate }: DashboardProps) {
     <div className="dashboard">
       <header className="dashboard-header">
         <h1 className="dashboard-header__title">Cyber Risk Intelligence</h1>
+        <h2 className="dashboard-header__welcome">Welcome to my dashboard</h2>
         <p className="dashboard-header__subtitle">Executive Risk Overview</p>
       </header>
 
