@@ -1,5 +1,6 @@
 .kpi-card {
-  background: #fff;
+  /* background: #fff;#64748b */
+    background: #64748b;
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
