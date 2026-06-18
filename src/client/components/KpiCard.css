@@ -1,7 +1,7 @@
 .kpi-card {
-  background: #fff;
+   background: #fff;
   border-radius: 12px;
-  padding: 20px;
+  padding: 10x;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   border-left: 4px solid transparent;
   display: flex;
@@ -14,6 +14,7 @@
 .kpi-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  border: 1px solid red;
 }
 
 .kpi-card__content {
@@ -34,7 +35,7 @@
   color: #6b7280;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  margin-top: 4px;
+  margin-top: 14px;
 }
 
 .kpi-card__trend {
